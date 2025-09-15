@@ -1,0 +1,58 @@
+% this template mostly comes from Trinkle23897
+% his github repo is https://github.com/Trinkle23897/THU-Beamer-Theme
+% thanks a lot Trinkle!
+% two color theme fdu_red and fdu_blue
+% github repo https://github.com/milanmarks/FDU-Beamer-Theme
+
+\documentclass{beamer}
+\usepackage{ctex, hyperref}
+\usepackage[T1]{fontenc}
+
+% other packages
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
+\usepackage{pstricks,listings,stackengine}
+\usepackage{tikz,graphicx,float,color,subfig}
+\author{}
+\title{高等数学D}
+\subtitle{第一章 \quad 函数}
+\institute{\zihao{5}  1.2 \quad 函数的概念}
+\date{}
+
+\usepackage{Tsinghua_fdublue}
+
+% defs
+\def\cmd#1{\texttt{\color{red}\footnotesize $\backslash$#1}}
+\def\env#1{\texttt{\color{blue}\footnotesize #1}}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{halfgray}{gray}{0.55}
+
+\lstset{
+	basicstyle=\ttfamily\small,
+	keywordstyle=\bfseries\color{deepblue},
+	emphstyle=\ttfamily\color{deepred},    % Custom highlighting style
+	stringstyle=\color{deepgreen},
+	numbers=left,
+	numberstyle=\small\color{halfgray},
+	rulesepcolor=\color{red!20!green!20!blue!20},
+	frame=shadowbox,
+}
+
+\begin{document}
+	\kaishu
+	\begin{frame}
+		\titlepage
+		
+	\end{frame}
+	
+	\section{常量与变量}
+	\begin{frame}
+		在人们观察自然现象或社会现象的过程中，经常会涉及一些量.其中一些量在观察过程中保持固定的数值，称为常量，一般用字母$a$、$b$、$c\cdots$表示；另一些量在观察过程中会不断变化，称为变量，一般用$x$、$y$、$z\cdots$表示.
+		
+		\bigskip
+		
+		常量在数轴上表示一个定点，变量在数轴上表示一个动点.
+	\end{frame}
+	
+\end{document}
